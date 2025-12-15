@@ -20,7 +20,7 @@ def generate_blogsurgeai_feed():
     fg.title('Surge AI Blog')
     fg.author({'name': 'Surge AI', 'email': 'team@surgehq.ai'})
     fg.link(href='https://www.surgehq.ai/blog', rel='alternate')
-    fg.link(href='https://raw.githubusercontent.com/olshansky/rss-feeds/main/feeds/feed_blogsurgeai.xml', rel='self')
+    fg.link(href='https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_blogsurgeai.xml', rel='self')
     fg.language('en')
     fg.description('New methods, current trends & software infrastructure for NLP. Articles written by our senior engineering leads from Google, Facebook, Twitter, Harvard, MIT, and Y Combinator')
 

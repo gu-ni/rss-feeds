@@ -91,6 +91,10 @@ def generate_rss_feed(articles, feed_name="openai_research"):
     fg.title("OpenAI Research News")
     fg.description("Latest research news and updates from OpenAI")
     fg.link(href="https://openai.com/news/research")
+    fg.link(
+        href="https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_openai_research.xml",
+        rel="self",
+    )
     fg.language("en")
 
     for article in articles:

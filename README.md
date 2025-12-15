@@ -24,6 +24,7 @@
 | [Windsurf Changelog](https://windsurf.com/changelog)                                      | [feed_windsurf_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_changelog.xml)                           |
 | [Windsurf Next Changelog](https://windsurf.com/changelog/windsurf-next)                   | [feed_windsurf_next_changelog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_windsurf_next_changelog.xml)                 |
 | [Patrick Collison's Blog](https://patrickcollison.com/culture)                            | _planned_                                                                                                                                            |
+| [AI at Meta Blog](https://ai.meta.com/blog/)                                              | [feed_meta_blog.xml](https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_blog.xml)                                             |
 | [Supabase Blog](https://supabase.com/blog)                                                | _planned_                                                                                                                                            |
 | [David Crawshaw](https://crawshaw.io/)                                                    | _planned_                                                                                                                                            |
 | [Engineering.fyi](https://engineering.fyi/)                                               | _planned_                                                                                                                                            |
@@ -76,6 +77,18 @@ If I do, consider supporting my 🌟🧋 addiction by [buying me a coffee](https
 ```bash
 Use @cmd_rss_feed_generator.md to convert @<html_file>.html to a RSS feed for <blog_url>.
 ```
+
+### Regenerate selected feeds (manual)
+
+Run only the feeds you care about and refresh their XML outputs in `feeds/`:
+
+```bash
+python feed_generators/run_feeds.py --feeds anthropic_news_blog openai_research_blog
+# or via Make:
+make feeds_selected FEEDS="anthropic_news_blog openai_research_blog"
+```
+
+Omit `--feeds` to run all known generators. Feed names match the generator filenames (without `.py`).
 
 ## Star History
 

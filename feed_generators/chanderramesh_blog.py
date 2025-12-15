@@ -118,7 +118,10 @@ def generate_rss_feed(blog_posts, feed_name="chanderramesh"):
         fg.author({"name": "Chander Ramesh"})
         fg.subtitle("Essays covering software, startups, investing, and philosophy")
         fg.link(href="https://chanderramesh.com/writing", rel="alternate")
-        fg.link(href=f"https://chanderramesh.com/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Add entries
         for post in blog_posts:

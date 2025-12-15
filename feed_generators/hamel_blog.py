@@ -121,7 +121,10 @@ def generate_rss_feed(blog_posts, feed_name="hamel"):
         fg.author({"name": "Hamel Husain"})
         fg.subtitle("Applied AI engineering, machine learning, and data science")
         fg.link(href="https://hamel.dev/", rel="alternate")
-        fg.link(href=f"https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Add entries
         for post in blog_posts:

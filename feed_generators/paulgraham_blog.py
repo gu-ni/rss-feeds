@@ -171,7 +171,10 @@ def generate_rss_feed(blog_posts, feed_name="paulgraham"):
         fg.author({"name": "Paul Graham"})
         fg.subtitle("Paul Graham's Essays and Writings")
         fg.link(href="https://paulgraham.com/articles.html", rel="alternate")
-        fg.link(href=f"https://paulgraham.com/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Add entries
         for post in blog_posts:

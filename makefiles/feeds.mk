@@ -9,6 +9,13 @@ feeds_generate_all: ## Generate all RSS feeds
 	$(Q)python feed_generators/run_all_feeds.py
 	$(call print_success,All feeds generated)
 
+.PHONY: feeds_selected
+feeds_selected: ## Generate selected RSS feeds (FEEDS="anthropic_news_blog openai_research_blog")
+	$(call check_venv)
+	$(call print_info,Generating selected RSS feeds $(if $(FEEDS),($(FEEDS)),))
+	$(Q)python feed_generators/run_feeds.py $(if $(FEEDS),--feeds $(FEEDS),)
+	$(call print_success,Selected RSS feeds generated)
+
 .PHONY: feeds_anthropic_news
 feeds_anthropic_news: ## Generate RSS feed for Anthropic News
 	$(call check_venv)
@@ -92,6 +99,13 @@ feeds_thinkingmachines: ## Generate RSS feed for Thinking Machines Lab blog
 	$(call print_info,Generating Thinking Machines Lab feed)
 	$(Q)python feed_generators/thinkingmachines_blog.py
 	$(call print_success,Thinking Machines Lab feed generated)
+
+.PHONY: feeds_meta_blog
+feeds_meta_blog: ## Generate RSS feed for AI at Meta Blog
+	$(call check_venv)
+	$(call print_info,Generating AI at Meta Blog feed)
+	$(Q)python feed_generators/meta_blog.py
+	$(call print_success,AI at Meta Blog feed generated)
 
 .PHONY: feeds_hamel
 feeds_hamel: ## Generate RSS feed for Hamel Husain's Blog
