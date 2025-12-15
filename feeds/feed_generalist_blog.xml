@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Generalist AI Blog</title>
+    <link>https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_generalist_blog.xml</link>
+    <description>Research updates and news from Generalist AI</description>
+    <atom:link href="https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_generalist_blog.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Dec 2025 11:50:09 +0000</lastBuildDate>
+    <item>
+      <title>Research Preview</title>
+      <link>https://generalistai.com/blog/jun-17-2025-research-preview</link>
+      <description>Today we're excited to share a glimpse of what we're building at Generalist.</description>
+      <guid isPermaLink="false">https://generalistai.com/blog/jun-17-2025-research-preview</guid>
+      <category>Generalist AI</category>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Robots Build Now, Too</title>
+      <link>https://generalistai.com/blog/sep-24-2025-the-robots-build-now-too</link>
+      <description>One-shot assembly is one of our new internal evaluation tasks: you build a small Lego structure, place it in front of the robot, and the robot builds copies of it.</description>
+      <guid isPermaLink="false">https://generalistai.com/blog/sep-24-2025-the-robots-build-now-too</guid>
+      <category>Generalist AI</category>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GEN-0/ Embodied Foundation Models That Scale with Physical Interaction</title>
+      <link>https://generalistai.com/blog/nov-04-2025-GEN-0</link>
+      <description>We’re introducingGEN-0, a new class of embodied foundation models built for multimodal training directly on high-fidelity raw physical interaction.</description>
+      <guid isPermaLink="false">https://generalistai.com/blog/nov-04-2025-GEN-0</guid>
+      <category>Generalist AI</category>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

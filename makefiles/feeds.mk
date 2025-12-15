@@ -107,6 +107,13 @@ feeds_meta_blog: ## Generate RSS feed for AI at Meta Blog
 	$(Q)python feed_generators/meta_blog.py
 	$(call print_success,AI at Meta Blog feed generated)
 
+.PHONY: feeds_generalist_blog
+feeds_generalist_blog: ## Generate RSS feed for Generalist AI Blog
+	$(call check_venv)
+	$(call print_info,Generating Generalist AI Blog feed)
+	$(Q)python feed_generators/generalist_blog.py
+	$(call print_success,Generalist AI Blog feed generated)
+
 .PHONY: feeds_hamel
 feeds_hamel: ## Generate RSS feed for Hamel Husain's Blog
 	$(call check_venv)
