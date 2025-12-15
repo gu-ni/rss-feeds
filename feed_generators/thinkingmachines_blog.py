@@ -214,6 +214,7 @@ def main(feed_name="thinkingmachines", html_file=None):
             common_locations = [
                 "ThinkingMachines.html",
                 get_project_root() / "ThinkingMachines.html",
+                get_project_root() / "feeds" / "Connectionism - Thinking Machines Lab.html",
             ]
 
             local_file_found = False
