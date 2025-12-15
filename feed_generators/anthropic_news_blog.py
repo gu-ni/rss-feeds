@@ -343,7 +343,8 @@ def generate_rss_feed(articles, feed_name="anthropic_news"):
         fg.subtitle("Latest updates from Anthropic's newsroom")
         # Set links - self link first, then alternate (which becomes the main <link>)
         fg.link(
-            href=f"https://www.anthropic.com/feeds/feed_{feed_name}.xml", rel="self"
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
         )
         fg.link(href="https://www.anthropic.com/news", rel="alternate")
 

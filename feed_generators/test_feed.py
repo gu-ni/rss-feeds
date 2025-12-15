@@ -103,7 +103,10 @@ def generate_rss_feed(articles, feed_name="anthropic"):
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Latest updates from Anthropic's newsroom")
         fg.link(href="https://www.anthropic.com/news", rel="alternate")
-        fg.link(href=f"https://anthropic.com/news/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Add entries
         for article in articles:

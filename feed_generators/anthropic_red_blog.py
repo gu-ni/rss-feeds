@@ -198,7 +198,10 @@ def generate_rss_feed(articles, feed_name="anthropic_red"):
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Evidence-based analysis about AI's implications for cybersecurity, biosecurity, and autonomous systems")
         fg.link(href="https://red.anthropic.com/", rel="alternate")
-        fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Sort articles by date (newest first)
         sorted_articles = sorted(articles, key=lambda x: x["date"], reverse=True)

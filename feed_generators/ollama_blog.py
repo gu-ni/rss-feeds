@@ -86,7 +86,10 @@ def generate_rss_feed(blog_posts, feed_name="ollama"):
         fg.logo("https://ollama.com/public/icon-64x64.png")
         fg.subtitle("Latest updates from Ollama")
         fg.link(href="https://ollama.com/blog", rel="alternate")
-        fg.link(href=f"https://ollama.com/blog/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Add entries
         for post in blog_posts:

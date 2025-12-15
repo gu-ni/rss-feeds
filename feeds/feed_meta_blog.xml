@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>AI at Meta Blog</title>
+    <link>https://ai.meta.com/blog/</link>
+    <description>Latest updates from the AI at Meta blog</description>
+    <atom:link href="https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_meta_blog.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Dec 2025 11:15:35 +0000</lastBuildDate>
+    <item>
+      <title>Go up one level</title>
+      <link>https://ai.meta.com/blog/#</link>
+      <description>Go up one level</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/#</guid>
+      <category>AI at Meta</category>
+    </item>
+    <item>
+      <title>Open Sourcing Ax And Botorch New Ai Tools For Adaptive Experimentation</title>
+      <link>https://ai.meta.com/blog/open-sourcing-ax-and-botorch-new-ai-tools-for-adaptive-experimentation/</link>
+      <description>Open Sourcing Ax And Botorch New Ai Tools For Adaptive Experimentation</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/open-sourcing-ax-and-botorch-new-ai-tools-for-adaptive-experimentation/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Llama 3 1 Impact Grants Call For Applications</title>
+      <link>https://ai.meta.com/blog/llama-3-1-impact-grants-call-for-applications/</link>
+      <description>Llama 3 1 Impact Grants Call For Applications</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/llama-3-1-impact-grants-call-for-applications/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Llama 3 2 Connect 2024 Vision Edge Mobile Devices</title>
+      <link>https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/</link>
+      <description>Llama 3 2 Connect 2024 Vision Edge Mobile Devices</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Responsible Ai Connect 2024</title>
+      <link>https://ai.meta.com/blog/responsible-ai-connect-2024/</link>
+      <description>Responsible Ai Connect 2024</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/responsible-ai-connect-2024/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ai Defenders Program Llama Protection Tools</title>
+      <link>https://ai.meta.com/blog/ai-defenders-program-llama-protection-tools/</link>
+      <description>Ai Defenders Program Llama Protection Tools</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/ai-defenders-program-llama-protection-tools/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dinov3 Self Supervised Vision Model</title>
+      <link>https://ai.meta.com/blog/dinov3-self-supervised-vision-model/</link>
+      <description>Dinov3 Self Supervised Vision Model</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/dinov3-self-supervised-vision-model/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Llama Oracle Help Students In Brazil</title>
+      <link>https://ai.meta.com/blog/llama-oracle-help-students-in-brazil/</link>
+      <description>Llama Oracle Help Students In Brazil</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/llama-oracle-help-students-in-brazil/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Pytorch Native Agentic Stack</title>
+      <link>https://ai.meta.com/blog/introducing-pytorch-native-agentic-stack/</link>
+      <description>Introducing Pytorch Native Agentic Stack</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/introducing-pytorch-native-agentic-stack/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Practical Ai Agent Security</title>
+      <link>https://ai.meta.com/blog/practical-ai-agent-security/</link>
+      <description>Practical Ai Agent Security</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/practical-ai-agent-security/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Read Omnilingual ASR: Advancing Automatic Speech Recognition for 1,600+ Languages</title>
+      <link>https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/</link>
+      <description>Read Omnilingual ASR: Advancing Automatic Speech Recognition for 1,600+ Languages</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Read Introducing Meta Segment Anything Model 3 and Segment Anything Playground</title>
+      <link>https://ai.meta.com/blog/segment-anything-model-3/</link>
+      <description>Read Introducing Meta Segment Anything Model 3 and Segment Anything Playground</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/segment-anything-model-3/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sam 3D</title>
+      <link>https://ai.meta.com/blog/sam-3d/</link>
+      <description>Sam 3D</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/sam-3d/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Read ExecuTorch Adoption in Reality Labs: Powering On-Device AI Across Meta Devices</title>
+      <link>https://ai.meta.com/blog/executorch-reality-labs-on-device-ai/</link>
+      <description>Read ExecuTorch Adoption in Reality Labs: Powering On-Device AI Across Meta Devices</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/executorch-reality-labs-on-device-ai/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Read How Conservation X Labs Is Using Segment Anything Model 3 for Endangered Wildlife Monitoring</title>
+      <link>https://ai.meta.com/blog/segment-anything-conservation-x-wildlife-monitoring/</link>
+      <description>Read How Conservation X Labs Is Using Segment Anything Model 3 for Endangered Wildlife Monitoring</description>
+      <guid isPermaLink="false">https://ai.meta.com/blog/segment-anything-conservation-x-wildlife-monitoring/</guid>
+      <category>AI at Meta</category>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

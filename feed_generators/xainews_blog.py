@@ -187,7 +187,10 @@ def generate_rss_feed(articles, feed_name="xainews"):
         fg.author({"name": "xAI"})
         fg.subtitle("Latest updates from xAI")
         fg.link(href="https://x.ai/news", rel="alternate")
-        fg.link(href=f"https://x.ai/news/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Sort articles by date (newest first)
         articles_sorted = sorted(articles, key=lambda x: x["date"], reverse=True)

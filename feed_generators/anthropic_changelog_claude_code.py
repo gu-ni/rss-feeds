@@ -119,7 +119,10 @@ def generate_rss_feed(items, feed_name="anthropic_changelog_claude_code"):
             href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md",
             rel="alternate",
         )
-        fg.link(href=f"https://anthropic.com/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # feedgen reverses order, so reverse items to maintain newest-first
         for item in reversed(items):

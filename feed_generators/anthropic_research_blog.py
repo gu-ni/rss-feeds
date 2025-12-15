@@ -252,7 +252,10 @@ def generate_rss_feed(articles, feed_name="anthropic_research"):
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Latest research from Anthropic")
         fg.link(href="https://www.anthropic.com/research", rel="alternate")
-        fg.link(href=f"https://anthropic.com/research/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Sort articles by date (most recent first), but handle None dates
         # Articles with dates come first, then articles without dates (preserve original order)

@@ -146,7 +146,10 @@ def generate_rss_feed(articles, feed_name="anthropic_engineering"):
         fg.logo("https://www.anthropic.com/images/icons/apple-touch-icon.png")
         fg.subtitle("Inside the team building reliable AI systems")
         fg.link(href="https://www.anthropic.com/engineering", rel="alternate")
-        fg.link(href=f"https://anthropic.com/engineering/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Sort articles by date (newest first)
         articles.sort(key=lambda x: x["date"], reverse=True)

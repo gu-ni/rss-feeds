@@ -164,7 +164,10 @@ def generate_rss_feed(articles, feed_name="thinkingmachines"):
         fg.author({"name": "Thinking Machines Lab"})
         fg.subtitle("Shared science and news from the team")
         fg.link(href="https://thinkingmachines.ai/blog/", rel="alternate")
-        fg.link(href=f"https://thinkingmachines.ai/feed_{feed_name}.xml", rel="self")
+        fg.link(
+            href=f"https://raw.githubusercontent.com/gu-ni/rss-feeds/main/feeds/feed_{feed_name}.xml",
+            rel="self",
+        )
 
         # Add entries
         for article in articles:
