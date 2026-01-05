@@ -114,6 +114,10 @@ feeds_generalist_blog: ## Generate RSS feed for Generalist AI Blog
 	$(Q)python feed_generators/generalist_blog.py
 	$(call print_success,Generalist AI Blog feed generated)
 
+.PHONY: feeds_bfl_blog
+feeds_bfl_blog:
+	$(call print_warning,feeds_bfl_blog target removed (Black Forest Labs feed disabled))
+
 .PHONY: feeds_hamel
 feeds_hamel: ## Generate RSS feed for Hamel Husain's Blog
 	$(call check_venv)
